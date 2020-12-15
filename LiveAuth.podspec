@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LiveAuth'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'LiveAuth Library'
   s.static_framework = true
   s.swift_version    = '5.2'
