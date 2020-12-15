@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LiveAuth_Example' do
+  pod 'LiveAuth', :path => '../'
+
+  target 'LiveAuth_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
